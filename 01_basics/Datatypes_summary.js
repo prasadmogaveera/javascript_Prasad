@@ -26,3 +26,17 @@ const myFunction = function(){
 }
 
 console.log(typeof myObj);
+
+// Memory 
+
+let name = 'shaktiman';
+let anotherName = name;
+console.log({name, anotherName});
+name = 'naagraj';
+console.log({name, anotherName});
+
+let userOne = {email: 'shaktiman@example.com'};
+let userTwo = userOne;
+console.log({userOne, userTwo});
+userOne.email = 'naagraj@example.com';
+console.log({userOne, userTwo});    
